@@ -25,3 +25,4 @@ using namespace Eigen;
 
 
 MatrixXi txt2matrix(string addr);
+MatrixXf txt2matrix_3(string addr);

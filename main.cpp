@@ -8,8 +8,8 @@ int main()
 	MatrixXi matrix2d_a = txt2matrix(points2d_a_addr);
 	MatrixXi matrix2d_b = txt2matrix(points2d_b_addr);
 
-	//calculate M
-	MatrixXf matrix2f_a = matrix2d_a.cast<float>(); //Convert an int matrix to a float matrix
+	//Convert an int matrix to a float matrix
+	MatrixXf matrix2f_a = matrix2d_a.cast<float>(); 
 	MatrixXf matrix2f_b = matrix2d_b.cast<float>();
 
 	//Homogeneous
